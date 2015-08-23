@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Page Object test example]">
+  <parameter name="url" value="http://www.naukri.com/"/>
+  <parameter name="browserType" value="FF"/>
+  <test name="sample test(failed)">
+    <classes>
+      <class name="com.nk.tests.LoginPageTest">
+        <methods>
+          <include name="UserLogin"/>
+          <include name="setup"/>
+          <include name="forgotPass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nk.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->

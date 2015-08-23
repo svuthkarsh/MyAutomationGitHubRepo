@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80" started-at="2015-08-22T10:04:03Z" finished-at="2015-08-22T10:04:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80" started-at="2015-08-22T10:04:03Z" finished-at="2015-08-22T10:04:03Z">
+      <class name="com.nk.tests.LoginPageTest">
+        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.nk.tests.LoginPageTest@c0663d]" name="setup" is-config="true" duration-ms="0" started-at="2015-08-22T15:34:03Z" finished-at="2015-08-22T15:34:03Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserType' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\uthkarsha.venkataswa\AppData\Local\Temp\testng-eclipse--1764574681\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserType' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\uthkarsha.venkataswa\AppData\Local\Temp\testng-eclipse--1764574681\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="verifyLoginlink()[pri:0, instance:com.nk.tests.LoginPageTest@c0663d]" name="verifyLoginlink" duration-ms="13" started-at="2015-08-22T15:34:03Z" finished-at="2015-08-22T15:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginlink -->
+        <test-method status="SKIP" signature="verifyLoginContent()[pri:0, instance:com.nk.tests.LoginPageTest@c0663d]" name="verifyLoginContent" duration-ms="2" started-at="2015-08-22T15:34:03Z" finished-at="2015-08-22T15:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginContent -->
+        <test-method status="SKIP" signature="UserLogin()[pri:0, instance:com.nk.tests.LoginPageTest@c0663d]" name="UserLogin" duration-ms="2" started-at="2015-08-22T15:34:03Z" finished-at="2015-08-22T15:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method status="SKIP" signature="forgotPass()[pri:0, instance:com.nk.tests.LoginPageTest@c0663d]" name="forgotPass" duration-ms="2" started-at="2015-08-22T15:34:03Z" finished-at="2015-08-22T15:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPass -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.nk.tests.LoginPageTest@c0663d]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-08-22T15:34:03Z" finished-at="2015-08-22T15:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nk.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
